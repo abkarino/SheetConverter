@@ -1,11 +1,11 @@
-SheetConverter library (formerly "Spreadsheet to HTML")
+SheetConverterV8 library (formerly "Spreadsheet to HTML") V8 Compatible Version
 ==============
 
 Google Apps Script library - interprets Google Sheets Formats, converts to formatted text or html
 
 This is the source repository for the [SheetConverter Google Apps Script library](https://sites.google.com/site/scriptsexamples/custom-methods/sheetconverter).
 
-Libary documentation is [available here](https://script.google.com/macros/library/d/Mo6Ljr7ZKrMeYO9mHqOdo9oxc-w7mEonb/5).
+Libary documentation is [available here](https://script.google.com/macros/library/d/il4HO7oh0w71vO56Fp7zXCejabfqxepCWl1c72-f9z2YeOPARg4FMh-c/2).
 
 ## Caveats ##
 
@@ -33,6 +33,14 @@ Redistribution and use in source and binary forms, with or without modification,
  2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+## Library Key ##
+Follow the steps [here](https://developers.google.com/apps-script/guides/libraries#managing_libraries)
+
+Use the following project key
+
+    1il4HO7oh0w71vO56Fp7zXCejabfqxepCWl1c72-f9z2YeOPARg4FMh-c
+
 
 ## To use ##
 

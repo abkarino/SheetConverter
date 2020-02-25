@@ -54,8 +54,8 @@ var thisInstance_ = this;
  * from http://javascript.info/tutorial/type-detection
  */
 var toClass_ = {}.toString;
-function objIsClass_(object,class) {
-  return (toClass_.call(object).indexOf(class) !== -1);
+function objIsClass_(object,className) {
+  return (toClass_.call(object).indexOf(className) !== -1);
 }
 
 /**
@@ -239,6 +239,7 @@ function convertRange2html(range){
   
   // Populate rows
   for (row=0;row<data.length;row++) {
+    // noinspection CssInvalidPropertyValue
     html.push('<tr style="height:XXXpx;vertical-align:bottom;">'.replace('XXX',rowHeights[row]));
     for (col=0;col<data[row].length;col++) {
       // Get formatted data
@@ -588,6 +589,7 @@ function convertCurrency_(num,fract,options) {
     }
   }
   if (options.negColor && options.htmlReady) {
+    // noinspection CssInvalidPropertyValue
     result = ("<span style=\"color:XXX;\">"+result+"</span>").replace("XXX",options.negColor.toLowerCase());
   }
   num = convertPadded_(num,fract);
